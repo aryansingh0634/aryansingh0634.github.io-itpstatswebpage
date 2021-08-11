@@ -21,7 +21,7 @@ if (vh < vw) {
   canvas.height = 900;
 } else {
   //Mobile view
-  frameCount = 447;
+  frameCount = 379;
   currentFrame = (index) =>
     `frames/Mobile view${index.toString().padStart(3, "0")}.jpg`;
   canvas.width = 1080;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Access and Mobility Professional</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script src="./script.js"></script>
+    <div id="nav">
+      <div id="desktop">
+        <span class="rotate" onclick="seekLeft()"><</span>
+        <span class="rotate" onclick="seekRight()">></span>
+      </div>
+      <div id="mobile">
+        <i onclick="seekLeft()" class="fas fa-angle-up"></i><br />
+        <i onclick="seekRight()" class="fas fa-angle-down"></i>
+      </div>
+    </div>
+    <!-- <script src="scrooth.js" id="scrooth"></script> -->
+  </body>
+</html>

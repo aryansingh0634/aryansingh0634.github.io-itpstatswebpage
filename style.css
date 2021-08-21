@@ -1,5 +1,5 @@
 html {
-  height: 100vh;
+  height: 200vh;
   background-color: #0e0e10;
   scroll-snap-type: y mandatory;
 }
@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 #snap0 {
   display: block;
-  top: 500px;
+  top: 0px;
   position: absolute;
   scroll-snap-align: start;
 }

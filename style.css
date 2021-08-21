@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 }
 #snap1 {
   display: block;
-  top: 1000px;
+  top: 2000px;
   position: absolute;
   scroll-snap-align: start;
 }

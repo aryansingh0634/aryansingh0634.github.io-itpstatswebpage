@@ -1,5 +1,5 @@
 html {
-  height: 200vh;
+  height: 100vh;
   background-color: #0e0e10;
   scroll-snap-type: y mandatory;
 }
